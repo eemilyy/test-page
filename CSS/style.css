@@ -1,3 +1,50 @@
 *{
-    background-color:azure;
+    /*background-color:azure;*/
+    margin: 0;
 }
+
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.menuBar {
+    display: flex;
+    margin: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menuBar ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.menuBar li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.info {
+    margin-top: 50px;
+}
+
+.info img {
+    
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: white;
+}
+
+.conteiner div {
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 5px;
+}
+ 
