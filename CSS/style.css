@@ -32,10 +32,12 @@ body {
 }
 
 .info img {
-    
+    position: absolute;
+    border: solid black;
 }
 
 .conteiner {
+    margin-top: 375px;
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -46,5 +48,11 @@ body {
     background-color: whitesmoke;
     margin: 20px;
     padding: 5px;
+}
+
+#wave {
+    top: 380px;
+    position:relative;
+    border: solid;
 }
  
