@@ -1,6 +1,8 @@
 *{
     /*background-color:azure;*/
     margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 
 body {
@@ -11,7 +13,7 @@ body {
 .menuBar {
     display: flex;
     margin: 0;
-    top: 0;
+    top: 20px;
     position: fixed;
     width: 100%;
     justify-content: space-around;
@@ -28,10 +30,11 @@ body {
 }
 
 .info {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .info img {
+    left: 30vh;
     position: absolute;
     border: solid black;
 }
