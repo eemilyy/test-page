@@ -24,9 +24,14 @@ body {
     flex-direction: row;
 }
 
-.menuBar li {
+.menuBar li{
     list-style: none;
     margin-right: 20px;
+}
+
+.menuBar a {
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .info {
@@ -36,7 +41,7 @@ body {
 .info img {
     left: 30vh;
     position: absolute;
-    border: solid black;
+    /*border: solid black;*/
 }
 
 .conteiner {
@@ -48,14 +53,36 @@ body {
 }
 
 .conteiner div {
-    background-color: whitesmoke;
+    border-radius: 10px;
+    background-color: #f8f9fa;
     margin: 20px;
-    padding: 5px;
+    padding: 15px;
 }
+.description {
+    position: absolute;
+    margin-top: 150px;    
+    margin-left: 700px;
+}
+
 
 #wave {
     top: 380px;
     position:relative;
-    border: solid;
+    /*border: solid;*/
+}
+
+#wave2 {
+    margin-top: -50px;
+    padding: 0;
+}
+
+.conteiner2 {
+    text-align: center;
+    padding: 25px;
+    background-color: #f8f9fa;
+}
+
+.conteiner2 img {
+    margin-top: 35px;
 }
  
