@@ -73,7 +73,7 @@ body {
 
 #wave2 {
     margin-top: -50px;
-    padding: 0;
+    
 }
 
 .conteiner2 {
@@ -84,5 +84,9 @@ body {
 
 .conteiner2 img {
     margin-top: 35px;
+}
+
+footer {
+    background-color: white;
 }
  
